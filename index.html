@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mardi gras</title>
+    <!-- bootstrap link start -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap js start-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap js end-->
+    <!-- bootstrap link end -->
+    <link rel="stylesheet" href="./scss/index/index.css" />
+    <link rel="shortcut icon" type="image" href="./images/logo.png" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" alt="logo" class="logo" />
+          </a>
+          <button
+            class="navbar-toggler text-warning"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarColor01"
+            aria-controls="navbarColor01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarColor01"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-warning active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="./html/about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="./html/media.html"
+                  >Media</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="./html/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="./html/contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <img src="./images/welcome.png" alt="logo" class="logo2" />
+        </div>
+      </nav>
+    </header>
+    <!-- header end -->
+    <main>
+      <!-- main start -->
+      <!-- slider start -->
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Images/pic1.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/pic2.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/pic3.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/pic4.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>fourth slide label</h5>
+              <p>
+                Some representative placeholder content for the fourth slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Images/pic5.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fifth slide label</h5>
+              <p>
+                Some representative placeholder content for the Fifth slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- slider end -->
+      <!-- mayor info start-->
+      <div class="mayor-info">
+        <div class="info">
+          <h2>What Is Mardi Gras?</h2>
+          <p>
+            Mardi Gras is an annual festival held in New Orleans, Louisiana,
+            which takes place in the weeks leading up to and including Fat
+            Tuesday, which is the day before Ash Wednesday. The festival is
+            known for its elaborate parades, colorful costumes, and lively
+            celebrations. The first Mardi Gras parade in New Orleans was held in
+            1837, and the tradition has continued ever since, with various
+            krewes (social organizations) creating and sponsoring their own
+            parades and events throughout the city. The largest and most famous
+            parades are held on the last five days leading up to Fat Tuesday,
+            with the final parade being the "Zulu" parade, followed by the "Rex"
+            parade. <a href="./html/about.html">Read more</a>
+          </p>
+        </div>
+        <div class="mayor">
+          <h2>As Mayor of New Orleans</h2>
+          <img src="./images/mayor.jpg" alt="" />
+          <br /><br />
+          <p>
+            I invite you to visit our city to experience the excitement of Mardi
+            Gras! <br />
+            The Carnival season officially begins each year on Jan. 6 -- the
+            Feast of the Epiphany, also called Twelfth Night or Kings’ Day.
+            Traditional balls are held in the weeks leading up to the big event.
+            Spectacular parades with colorful, creative floats start rolling
+            before Mardi Gras Day. Our private Carnival clubs, called krewes,
+            take on royalty status and throw beads, doubloons and toys to parade
+            goers. Visitors quickly learn to say, "Throw me something mister!"
+            The culmination of Mardi Gras in New Orleans begins early on Mardi
+            Gras Day when the Zulu Social Aid & Pleasure Club and the Rex
+            Organization parade through the city. Music, food and elaborate
+            costumes add to the fun-filled day of excitement for revelers of all
+            ages. New Orleans, with its unmatched culture and world-famous music
+            and cuisine, is an exciting place to be at any time of the year. We
+            invite everyone to experience Mardi Gras at least once in their
+            lifetime. Make your plans now to be a part of this great tradition
+            and see firsthand why we say, "Laissez les bon temps rouler!"
+            Sincerely, LaToya Cantrell Mayor of New Orleans
+          </p>
+        </div>
+      </div>
+      <!-- mayor info end-->
+      <!-- sponsers start -->
+      <figure class="sponsors">
+        <a href="https://lcm.org/" target="_blank"
+          ><img
+            src="./images/banners/IMG-20230403-WA0007.jpg"
+            class="banner"
+            alt=""
+          />
+          <figcaption>lousiana children's museum</figcaption></a
+        >
+
+        <a
+          href="https://www.ritzcarlton.com/en/hotels/new-orleans"
+          target="_blank"
+          ><img
+            src="./images/banners/IMG-20230403-WA0008.jpg"
+            class="banner"
+            alt=""
+          />
+          <figcaption>ritz-carlton</figcaption></a
+        >
+        <a
+          href="https://www.marriott.com/en-us/hotels/msyis-sheraton-new-orleans-hotel/overview/?EM=DNM_SHERATONNEWORLEANS.COM"
+          target="_blank"
+          ><img
+            src="./images/banners/IMG-20230403-WA0009.jpg"
+            class="banner"
+            alt=""
+          />
+          <figcaption>Sheraton Hotel</figcaption></a
+        >
+        <a
+          href="https://acehotel.com/new-orleans/?gclid=CjwKCAjwrdmhBhBBEiwA4Hx5g3j4VrSIv0gUdf-vUEyjzOscOKRE4_q943AgBKHCKIGn2CUD0t8IVxoCuUcQAvD_BwE"
+          target="_blank"
+          ><img
+            src="./images/banners/IMG-20230403-WA0010.jpg"
+            class="banner"
+            alt=""
+          />
+          <figcaption>Ace Hotel</figcaption></a
+        >
+        <a href="https://walk-ons.com" target="_blank"
+          ><img
+            src="./images/banners/IMG-20230403-WA0011.jpg"
+            class="banner"
+            alt=""
+          />
+          <figcaption>Walk On's</figcaption></a
+        >
+        <a
+          href="https://www.neworleans.com/listing/museum-of-death/37175/"
+          target="_blank"
+          ><img
+            src="./images/banners/IMG-20230403-WA0012.jpg"
+            class="banner"
+            alt=""
+          />
+          <figcaption>Museum of Death</figcaption></a
+        >
+        <a href="https://www.premiumparking.com/P402" target="_blank"
+          ><img
+            src="./images/banners/IMG-20230403-WA0013.jpg"
+            class="banner"
+            alt=""
+          />
+          <figcaption>Premium Parking</figcaption></a
+        >
+        <a href="https://www.bloodymarystours.com/" target="_blank"
+          ><img
+            src="./images/banners/IMG-20230403-WA0014.jpg"
+            class="banner"
+            alt=""
+          />
+          <figcaption>Haunted Museum</figcaption></a
+        >
+      </figure>
+      <!-- sponsers end -->
+      <!-- game start -->
+      <!-- game end -->
+    </main>
+    <!-- main end -->
+    <!-- footer start -->
+    <!-- footer end -->
+    <!-- js start -->
+    <!-- js end -->
+  </body>
+</html>

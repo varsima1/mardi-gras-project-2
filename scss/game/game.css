@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Pattaya";
+  font-family: "Henny Penny";
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.logo2 {
+  width: 150px;
+  height: 100px;
+}/*# sourceMappingURL=game.css.map */
