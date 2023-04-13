@@ -93,3 +93,18 @@ figcaption {
   }
   /*sponsors end*/
 }
+@media (max-width: 300px) {
+  /*mayor and info start*/
+  .mayor-info {
+    height: 1200px;
+  }
+  /*mayor and info end*/
+  /*sponsors start*/
+  .banner {
+    width: 250px;
+  }
+  figcaption {
+    width: 250px;
+  }
+}
+/*sponsors end*/
