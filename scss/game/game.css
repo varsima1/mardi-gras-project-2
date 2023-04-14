@@ -26,4 +26,16 @@ p {
 .logo2 {
   width: 150px;
   height: 100px;
+}
+
+.footer {
+  padding: 40px 0;
+  background-color: #0d0d0d;
+}
+
+.footer .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 18px;
+  color: #f2cc0f;
 }/*# sourceMappingURL=game.css.map */

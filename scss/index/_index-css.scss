@@ -54,6 +54,15 @@ figcaption {
   transition: all 0.5s;
 }
 /*sponsors end*/
+.game {
+  background-color: $yellow;
+  text-align: center;
+  margin-top: -16px;
+  font-size: 1.5rem;
+  height: 350px;
+  padding: 50px;
+}
+/*game end*/
 @media (max-width: 1300px) {
   /*mayor and info start*/
   .mayor-info {
@@ -77,6 +86,7 @@ figcaption {
     opacity: 1;
   }
   /*sponsors end*/
+  /*game start*/
 }
 @media (max-width: 750px) {
   /*mayor and info start*/
@@ -92,6 +102,11 @@ figcaption {
     grid-template-columns: none;
   }
   /*sponsors end*/
+  /*game start*/
+  .game {
+    height: 550px;
+  }
+  /*game end*/
 }
 @media (max-width: 300px) {
   /*mayor and info start*/
@@ -106,5 +121,10 @@ figcaption {
   figcaption {
     width: 250px;
   }
+  /*sponsors end*/
+  /*game start*/
+  .game {
+    height: 700px;
+  }
+  /*game end*/
 }
-/*sponsors end*/
