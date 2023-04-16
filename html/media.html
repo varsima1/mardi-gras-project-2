@@ -76,5 +76,128 @@
       </nav>
     </header>
     <!-- header end -->
+    <!-- contect start-->
+    <!-- lightbox start -->
+    <div class="pictures">
+      <div class="column">
+        <img
+          src="../images/pic1.jpg"
+          style="width: 100%"
+          onclick="openModal();currentSlide(1)"
+          class="hover-shadow cursor"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="../images/pic2.jpg"
+          style="width: 100%"
+          onclick="openModal();currentSlide(2)"
+          class="hover-shadow cursor"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="../images/pic5.jpg"
+          style="width: 100%"
+          onclick="openModal();currentSlide(3)"
+          class="hover-shadow cursor"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="../images/pic3.jpg"
+          style="width: 100%"
+          onclick="openModal();currentSlide(4)"
+          class="hover-shadow cursor"
+        />
+      </div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="../images/pic1.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="../images/pic2.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="../images/pic5.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="../images/pic3.jpg" style="width: 100%" />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../images/pic1.jpg"
+            style="width: 100%"
+            onclick="currentSlide(1)"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../images/pic2.jpg"
+            style="width: 100%"
+            onclick="currentSlide(2)"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../images/pic5.jpg"
+            style="width: 100%"
+            onclick="currentSlide(3)"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="../images/pic3.jpg"
+            style="width: 100%"
+            onclick="currentSlide(4)"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- lightbox end -->
+    <!-- video start -->
+    <video width="400" controls>
+      <source
+        src="../images/media/Mardi Gras Corporate Event Produced by Treadway Events.mp4"
+        type="video/ogg"
+      />
+      <source
+        src="../images/media/Mardi Gras 2023 Highlight Video.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <!-- video end -->
+    <!-- contect end-->
+    <!-- footer start -->
+    <section class="footer">
+      <p class="copyright">Copyright © 2023 luka varsimashvili site</p>
+    </section>
+    <!-- footer end -->
+    <!-- js start-->
+    <script src="../js/media.js"></script>
+    <!-- js end-->
   </body>
 </html>
