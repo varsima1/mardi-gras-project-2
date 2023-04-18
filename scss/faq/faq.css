@@ -18,6 +18,18 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-image: url(../../images/3358237.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .logo {
   width: 100px;
   height: 100px;
@@ -28,14 +40,19 @@ p {
   height: 100px;
 }
 
+.space {
+  height: 463px;
+}
+
 .footer {
   padding: 40px 0;
   background-color: #0d0d0d;
+  width: 100%;
+  text-align: center;
 }
 
 .footer .copyright {
   margin-top: 15px;
-  text-align: center;
   font-size: 18px;
   color: #f2cc0f;
 }/*# sourceMappingURL=faq.css.map */

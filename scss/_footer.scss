@@ -1,11 +1,12 @@
 .footer {
   padding: 40px 0;
   background-color: $black;
+  width: 100%;
+  text-align: center;
 }
 
 .footer .copyright {
   margin-top: 15px;
-  text-align: center;
   font-size: 18px;
   color: $yellow;
 }

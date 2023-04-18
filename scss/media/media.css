@@ -18,6 +18,18 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-image: url(../../images/3358237.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .logo {
   width: 100px;
   height: 100px;
@@ -26,14 +38,6 @@ p {
 .logo2 {
   width: 150px;
   height: 100px;
-}
-
-body {
-  background-image: url(../../images/3358237.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 .pictures > .column {
@@ -194,11 +198,12 @@ video {
 .footer {
   padding: 40px 0;
   background-color: #0d0d0d;
+  width: 100%;
+  text-align: center;
 }
 
 .footer .copyright {
   margin-top: 15px;
-  text-align: center;
   font-size: 18px;
   color: #f2cc0f;
 }/*# sourceMappingURL=media.css.map */

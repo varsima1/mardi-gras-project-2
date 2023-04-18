@@ -18,6 +18,18 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-image: url(../../images/3358237.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .logo {
   width: 100px;
   height: 100px;
@@ -28,14 +40,62 @@ p {
   height: 100px;
 }
 
+.about {
+  background-color: #f2f2f2;
+  width: 1000px;
+  height: auto;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.about h1 {
+  background-color: #8cbf3f;
+  color: #f2f2f2;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.space {
+  height: 300px;
+}
+
+@media (max-width: 1100px) {
+  .about {
+    width: 800px;
+  }
+}
+@media (max-width: 800px) {
+  .about {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .about {
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .about {
+    width: 350px;
+  }
+}
+@media (max-width: 300px) {
+  .about {
+    width: 250px;
+  }
+}
 .footer {
   padding: 40px 0;
   background-color: #0d0d0d;
+  width: 100%;
+  text-align: center;
 }
 
 .footer .copyright {
   margin-top: 15px;
-  text-align: center;
   font-size: 18px;
   color: #f2cc0f;
 }/*# sourceMappingURL=about.css.map */

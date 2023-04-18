@@ -1,0 +1,81 @@
+.overlay {
+  background-image: url(../../images/contact_us.png);
+  background-color: rgb(115, 52, 8);
+  background-repeat: no-repeat;
+}
+
+form {
+  border-radius: 3px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+.overlay p {
+  background-color: rgb(115, 52, 8);
+}
+
+label {
+  display: block;
+  margin: 20px 0;
+}
+
+input,
+textarea {
+  width: 450px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid $white;
+}
+input[type="text"]:focus,
+textarea:focus {
+  border-bottom: 1px solid rgb(255, 0, 106);
+}
+
+textarea::-webkit-scrollbar {
+  width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 0, 106);
+}
+
+input[type="submit"] {
+  max-width: 200px;
+  background: linear-gradient(to right, rgb(255, 1, 166), rgb(255, 67, 61));
+  color: $white;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.error {
+  color: red;
+}
+
+.error-border {
+  border-bottom: 1px solid red;
+}
+
+#success {
+  font-size: 1.5rem;
+  color: #28a745;
+  background-color: rgb(115, 52, 8);
+}
+
+@media (max-width: 600px) {
+  input,
+  textarea {
+    width: 300px;
+  }
+}
+@media (max-width: 600px) {
+  input,
+  textarea {
+    width: 200px;
+  }
+}

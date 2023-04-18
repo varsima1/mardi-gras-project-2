@@ -171,14 +171,127 @@ figcaption {
   }
   /*game end*/
 }
+.overlay {
+  background-image: url(../../images/contact_us.png);
+  background-color: rgb(115, 52, 8);
+  background-repeat: no-repeat;
+}
+
+form {
+  border-radius: 3px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.overlay p {
+  background-color: rgb(115, 52, 8);
+}
+
+label {
+  display: block;
+  margin: 20px 0;
+}
+
+input,
+textarea {
+  width: 450px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+input[type=text]:focus,
+textarea:focus {
+  border-bottom: 1px solid rgb(255, 0, 106);
+}
+
+textarea::-webkit-scrollbar {
+  width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 0, 106);
+}
+
+input[type=submit] {
+  max-width: 200px;
+  background: linear-gradient(to right, rgb(255, 1, 166), rgb(255, 67, 61));
+  color: #f2f2f2;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.error {
+  color: red;
+}
+
+.error-border {
+  border-bottom: 1px solid red;
+}
+
+#success {
+  font-size: 1.5rem;
+  color: #28a745;
+  background-color: rgb(115, 52, 8);
+}
+
+@media (max-width: 600px) {
+  input,
+  textarea {
+    width: 300px;
+  }
+}
+@media (max-width: 600px) {
+  input,
+  textarea {
+    width: 200px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.to-top {
+  background: white;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #1f1f1f;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+
+.to-top.active {
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
+}
+
 .footer {
   padding: 40px 0;
   background-color: #0d0d0d;
+  width: 100%;
+  text-align: center;
 }
 
 .footer .copyright {
   margin-top: 15px;
-  text-align: center;
   font-size: 18px;
   color: #f2cc0f;
 }/*# sourceMappingURL=index.css.map */
