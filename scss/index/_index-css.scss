@@ -54,12 +54,13 @@ figcaption {
   transition: all 0.5s;
 }
 /*sponsors end*/
+/*game start*/
 .game {
   background-color: $yellow;
   text-align: center;
   margin-top: -16px;
   font-size: 1.5rem;
-  height: 350px;
+  height: 850px;
   padding: 50px;
 }
 /*game end*/
@@ -88,7 +89,7 @@ figcaption {
   /*sponsors end*/
   /*game start*/
 }
-@media (max-width: 750px) {
+@media (max-width: 754px) {
   /*mayor and info start*/
   .mayor-info {
     height: 800px;
@@ -104,7 +105,7 @@ figcaption {
   /*sponsors end*/
   /*game start*/
   .game {
-    height: 550px;
+    height: 950px;
   }
   /*game end*/
 }
@@ -124,7 +125,7 @@ figcaption {
   /*sponsors end*/
   /*game start*/
   .game {
-    height: 700px;
+    height: 1100px;
   }
   /*game end*/
 }

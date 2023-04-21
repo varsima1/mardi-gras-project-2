@@ -322,7 +322,32 @@
         <p>you have 10 questions about mardi gras</p>
         <p>all question have 4 propably answer</p>
         <p>when answer is right you gain 1 point</p>
-        <a href="./html/game.html">click here to start game</a>
+        <!-- <a href="./html/game.html">click here to start game</a>  -->
+        <div class="start-screen">
+          <button id="start-button">Start</button>
+        </div>
+        <div id="display-container">
+          <div class="header">
+            <div class="number-of-count">
+              <span class="number-of-question">1 of 3 questions</span>
+            </div>
+            <div class="timer-div">
+              <img
+                src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/stopwatch-icon.png"
+                width="20px"
+              />
+              <span class="time-left">30s</span>
+            </div>
+          </div>
+          <div id="container">
+            <!-- questions and options will be displayed here -->
+          </div>
+          <button id="next-button">Next</button>
+        </div>
+        <div class="score-container hide">
+          <div id="user-score">Demo Score</div>
+          <button id="restart">Restart</button>
+        </div>
       </div>
       <!-- game end -->
       <!-- contact start -->
@@ -380,6 +405,7 @@
     <!--js start -->
     <script src="./js/contact.js"></script>
     <script src="./js/arrowup.js"></script>
+    <script src="./js/quiz.js"></script>
     <!--js end -->
   </body>
 </html>
