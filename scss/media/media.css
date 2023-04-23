@@ -105,6 +105,10 @@ html {
   cursor: pointer;
 }
 
+.space {
+  height: 263px;
+}
+
 /* Next & previous buttons */
 .prev,
 .next {
